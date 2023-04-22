@@ -34,7 +34,7 @@ namespace CarManufacturer
 
         public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption) : this(make, model, year)
         {
-            this.fuelQuantity = fuelQuantity;
+            this.FuelQuantity = fuelQuantity;
             this.FuelConsumption = fuelConsumption;
         }
 
