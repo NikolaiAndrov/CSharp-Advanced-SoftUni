@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blacksmith", "Blacksmith\Blacksmith.csproj", "{C36B00F8-44E0-438D-9265-6745EF01C65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armory", "Armory\Armory.csproj", "{30540D2F-93C1-45EB-954B-8F3E07322416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones", "Drones\Drones.csproj", "{79790DE2-2D9F-4E82-89B4-80422AF155FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C36B00F8-44E0-438D-9265-6745EF01C65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36B00F8-44E0-438D-9265-6745EF01C65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36B00F8-44E0-438D-9265-6745EF01C65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36B00F8-44E0-438D-9265-6745EF01C65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30540D2F-93C1-45EB-954B-8F3E07322416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30540D2F-93C1-45EB-954B-8F3E07322416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30540D2F-93C1-45EB-954B-8F3E07322416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30540D2F-93C1-45EB-954B-8F3E07322416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79790DE2-2D9F-4E82-89B4-80422AF155FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79790DE2-2D9F-4E82-89B4-80422AF155FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79790DE2-2D9F-4E82-89B4-80422AF155FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79790DE2-2D9F-4E82-89B4-80422AF155FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9CB20C6-81A6-4D72-8042-6FDCC9ABF60E}
+	EndGlobalSection
+EndGlobal
