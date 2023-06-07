@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterchef", "Masterchef\Masterchef.csproj", "{2F5DCBD7-C671-4221-B3A2-4798344785B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survivor", "Survivor\Survivor.csproj", "{B6B88C91-B499-4E9F-85CF-669B5AFBC968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental", "SkiRental\SkiRental.csproj", "{DCFFCB10-D673-44E6-9A41-EE223AEA4FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F5DCBD7-C671-4221-B3A2-4798344785B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5DCBD7-C671-4221-B3A2-4798344785B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5DCBD7-C671-4221-B3A2-4798344785B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5DCBD7-C671-4221-B3A2-4798344785B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B88C91-B499-4E9F-85CF-669B5AFBC968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B88C91-B499-4E9F-85CF-669B5AFBC968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B88C91-B499-4E9F-85CF-669B5AFBC968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B88C91-B499-4E9F-85CF-669B5AFBC968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFFCB10-D673-44E6-9A41-EE223AEA4FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFFCB10-D673-44E6-9A41-EE223AEA4FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFFCB10-D673-44E6-9A41-EE223AEA4FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFFCB10-D673-44E6-9A41-EE223AEA4FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A43468A-1396-4CDE-9E0A-5B06E703FA86}
+	EndGlobalSection
+EndGlobal
