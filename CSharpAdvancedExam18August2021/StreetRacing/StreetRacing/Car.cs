@@ -1,0 +1,33 @@
+﻿namespace StreetRacing
+{
+    using System.Text;
+    public class Car
+    {
+        public Car(string make, string model, string licensePlate, int horsePower, double weight)
+        {
+            Make = make;
+            Model = model;
+            LicensePlate = licensePlate;
+            HorsePower = horsePower;
+            Weight = weight;
+        }
+
+        public string Make { get; private set; }
+        public string Model { get; private set; }
+        public string LicensePlate { get; private set; }
+        public int HorsePower { get; private set; }
+        public double Weight { get; private set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Make: {Make}");
+            sb.AppendLine($"Model: {Model}");
+            sb.AppendLine($"License Plate: {LicensePlate}");
+            sb.AppendLine($"Horse Power: {HorsePower}");
+            sb.Append($"Weight: {Weight}");
+
+            return sb.ToString();
+        }
+    }
+}
